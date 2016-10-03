@@ -101,7 +101,7 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 
 ![画像14](/readme-img/014.png)
 
-* 「Idenrity」＞「Bundle Identifier」を入力します
+* 「Identity」＞「Bundle Identifier」を入力します
  * 「Bundle Identifier」にはAppID作成時に指定した「Bundle ID」を入力してください
 * 「Signing(Debug)」＞「Provisioning Profile」を設定します
  * 今回使用するプロビジョニングプロファイルをプルダウンから選択します
