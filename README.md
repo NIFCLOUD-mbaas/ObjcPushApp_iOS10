@@ -7,7 +7,7 @@
 * [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の『プッシュ通知』機能を実装したサンプルプロジェクトです
 * 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます★☆
 * このサンプルはObjective-C(iOS10)に対応しています
- * Objective-C(iOS10未満)のサンプルは[こちら](https://github.com/natsumo/ObjcPushApp)
+ * Objective-C(iOS10未満)のサンプルは[こちら](https://github.com/NIFTYCloud-mbaas/ObjcPushApp)
 
 ## ニフティクラウドmobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！
@@ -35,7 +35,7 @@
 
 ## 作業の手順
 ### 0.プッシュ通知機能使うための準備
-__[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発用)](https://github.com/natsumo/iOS_Certificate)__
+__[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発用)](https://github.com/NIFTYCloud-mbaas/iOS_Certificate)__
 * 上記のドキュメントをご覧の上、必要な証明書類の作成をお願いします
  * 証明書の作成には[Apple Developer Program](https://developer.apple.com/account/)の登録（有料）が必要です
 
@@ -56,11 +56,11 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 
 ![画像5](/readme-img/005.png)
 
-### 2. [GitHub](https://github.com/natsumo/ObjcPushApp_iOS10.git)からサンプルプロジェクトのダウンロード
+### 2. [GitHub](https://github.com/NIFTYCloud-mbaas/ObjcPushApp_iOS10.git)からサンプルプロジェクトのダウンロード
 
 * 下記リンクをクリックしてプロジェクトをダウンロードをMacにダウンロードします
 
- * __[ObjcPushApp_iOS10](https://github.com/natsumo/ObjcPushApp_iOS10/archive/master.zip)__
+ * __[ObjcPushApp_iOS10](https://github.com/NIFTYCloud-mbaas/ObjcPushApp_iOS10/archive/master.zip)__
 
 ### 3. Xcodeでアプリを起動
 
@@ -223,7 +223,6 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 
 ## 参考
 * 同じ内容の【Swift3(iOS10)】版もご用意しています
- * [Swift3PushApp](https://github.com/natsumo/Swift3PushApp)
+ * [Swift3PushApp](https://github.com/NIFTYCloud-mbaas/Swift3PushApp)
 * ニフティクラウドmobile backend の[ドキュメント（プッシュ通知）](http://mb.cloud.nifty.com/doc/current/push/basic_usage_ios.html)をSwift版に書き換えたドキュメントをご用意していますので、ご活用ください
- * [Swift3(iOS10)] [--準備中--](http://mb.cloud.nifty.com/)
  * [Swift2(iOS9,8)] [Swiftでプッシュ通知を送ろう！](http://qiita.com/natsumo/items/8ffafee05cb7eb69d815)
