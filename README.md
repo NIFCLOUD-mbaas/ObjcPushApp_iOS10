@@ -151,14 +151,6 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
  * デバイストークンの要求はiOSのバージョンによってコードが異なります
 
 ```Objective-C
-//
-//  AppDelegate.m
-//  ObjecPushApp_iOS10
-//
-//  Created by Natsumo Ikeda on 2016/09/28.
-//  Copyright © 2016年 NIFTY Corporation. All rights reserved.
-//
-
 #import "AppDelegate.h"
 #import <UserNotifications/UserNotifications.h>
 #import <NCMB/NCMB.h>
