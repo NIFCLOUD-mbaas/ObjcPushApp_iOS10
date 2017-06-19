@@ -58,9 +58,8 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 
 ### 2. [GitHub](https://github.com/NIFTYCloud-mbaas/ObjcPushApp_iOS10.git)からサンプルプロジェクトのダウンロード
 
-* 下記リンクをクリックしてプロジェクトをダウンロードをMacにダウンロードします
-
- * __[ObjcPushApp_iOS10](https://github.com/NIFTYCloud-mbaas/ObjcPushApp_iOS10/archive/master.zip)__
+* 下記リンクをクリックしてプロジェクトをMacにダウンロードします
+  * https://github.com/NIFTYCloud-mbaas/ObjcPushApp_iOS10/archive/master.zip
 
 ### 3. Xcodeでアプリを起動
 
