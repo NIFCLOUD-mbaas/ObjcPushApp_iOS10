@@ -133,7 +133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "NIFTY Corporation";
+				ORGANIZATIONNAME = "NIFCLOUD Corporation";
 				TargetAttributes = {
 					BD02C85F1D9B526C005B5988 = {
 						CreatedOnToolsVersion = 8.0;
