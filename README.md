@@ -17,9 +17,9 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
-* macOS Sierra 10.12
-* Xcode ver. 8.0
-* iPhone6 ver. 10.0.1
+* Mac OS Mojave
+* Xcode ver. 11.0 
+* iPhone6s(iOS 13.1)
  * このサンプルアプリは、実機ビルドが必要です
 
 ※上記内容で動作確認をしています
