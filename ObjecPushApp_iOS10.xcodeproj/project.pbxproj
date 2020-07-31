@@ -133,7 +133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "NIFTY Corporation";
+				ORGANIZATIONNAME = "FUJITSU CLOUD TECHNOLOGIES LIMITED";
 				TargetAttributes = {
 					BD02C85F1D9B526C005B5988 = {
 						CreatedOnToolsVersion = 8.0;
@@ -352,7 +352,7 @@
 				INFOPLIST_FILE = ObjecPushApp_iOS10/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.niftycloud.ObjecPushApp-iOS10";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.nifcloud.ObjecPushApp-iOS10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -366,7 +366,7 @@
 				INFOPLIST_FILE = ObjecPushApp_iOS10/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.niftycloud.ObjecPushApp-iOS10";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilebackend.nifcloud.ObjecPushApp-iOS10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
