@@ -4,6 +4,6 @@ platform :ios, ‘9.0’
 # use_frameworks!
 
 target 'ObjecPushApp_iOS10' do
-    pod 'NCMB', :git => 'https://github.com/NIFTYCloud-mbaas/ncmb_ios.git'
+    pod 'NCMB', :git => 'https://github.com/NIFCLOUD-mbaas/ncmb_ios.git'
 end
 
