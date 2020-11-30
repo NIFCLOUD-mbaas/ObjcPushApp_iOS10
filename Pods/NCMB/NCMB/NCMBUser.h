@@ -1,5 +1,5 @@
 /*
- Copyright 2014 NIFTY Corporation All Rights Reserved.
+ Copyright 2020-2020 FUJITSU CLOUD TECHNOLOGIES LIMITED All Rights Reserved.
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@
 @class NCMBQuery;
 
 /**
- NCMBUserクラスは、ニフティクラウドmobile backend上に保存されたユーザデータを管理するクラスです。
+ NCMBUserクラスは、ニフクラ mobile backend上に保存されたユーザデータを管理するクラスです。
  ユーザの新規登録やログイン/ログアウト、会員情報の更新・取得・削除を行います。
  また、パスワードリセットやメールアドレス認証のリクエスト送信も行います。
  */
@@ -122,25 +122,32 @@
 - (void)signUpInBackgroundWithTarget:(id)target selector:(SEL)selector;
 
 /**
- googleのauthDataをもとにニフティクラウドmobile backendへの会員登録(ログイン)を行う
+ googleのauthDataをもとにニフクラ mobile backendへの会員登録(ログイン)を行う
  @param googleInfo google認証に必要なauthData
  @param block サインアップ後に実行されるblock
  */
 - (void)signUpWithGoogleToken:(NSDictionary *)googleInfo withBlock:(NCMBErrorResultBlock)block;
 
 /**
- twitterのauthDataをもとにニフティクラウドmobile backendへの会員登録(ログイン)を行う
+ twitterのauthDataをもとにニフクラ mobile backendへの会員登録(ログイン)を行う
  @param twitterInfo twitter認証に必要なauthData
  @param block サインアップ後に実行されるblock
  */
 - (void)signUpWithTwitterToken:(NSDictionary *)twitterInfo withBlock:(NCMBErrorResultBlock)block;
 
 /**
- facebookのauthDataをもとにニフティクラウドmobile backendへの会員登録(ログイン)を行う
+ facebookのauthDataをもとにニフクラ mobile backendへの会員登録(ログイン)を行う
  @param facebookInfo facebook認証に必要なauthData
  @param block サインアップ後に実行されるblock
  */
 - (void)signUpWithFacebookToken:(NSDictionary *)facebookInfo withBlock:(NCMBErrorResultBlock)block;
+
+/**
+ appleのauthDataをもとにニフクラ mobile backendへの会員登録(ログイン)を行う
+ @param appleInfo apple認証に必要なauthData
+ @param block サインアップ後に実行されるblock
+ */
+- (void)signUpWithAppleToken:(NSDictionary *)appleInfo withBlock:(NCMBErrorResultBlock)block;
 
 #pragma mark requestAuthenticationMail
 /** @name requestAuthenticationMail */
@@ -347,15 +354,23 @@
                     withBlock:(NCMBErrorResultBlock)block;
 
 /**
+ ログイン中のユーザー情報に、appleの認証情報を紐付ける
+ @param appleInfo appleの認証情報
+ @param block 既存のauthDataのapple情報のみ更新後実行されるblock。エラーがあればエラーのポインタが、なければnilが渡される。
+ */
+- (void)linkWithAppleToken:(NSDictionary *)appleInfo
+                    withBlock:(NCMBErrorResultBlock)block;
+
+/**
  会員情報に、引数で指定したtypeの認証情報が含まれているか確認する
- @param type 認証情報のtype（googleもしくはtwitter、facebook、anonymous）
+ @param type 認証情報のtype（googleもしくはtwitter、facebook、apple、anonymous）
  @return 引数で指定したtypeの会員情報が含まれている場合はYESを返す
  */
 - (BOOL)isLinkedWith:(NSString *)type;
 
 /**
  会員情報から、引数で指定したtypeの認証情報を削除する
- @param type 認証情報のtype（googleもしくはtwitter、facebook、anonymous）
+ @param type 認証情報のtype（googleもしくはtwitter、facebook、apple、anonymous）
  @param block エラー情報を返却するblock エラーがあればエラーのポインタが、なければnilが渡される。
  */
 - (void)unlink:(NSString *)type
