@@ -23,9 +23,10 @@
 
 ## 動作環境
 
-- iOS 10.x ～ iOS 13.x
-- Xcode 9.x ～ Xcode 11.x
-- armv7s, arm64, arm64e アーキテクチャ
+- iOS 13.x ～ iOS 16.x
+- Xcode 9.x ～ Xcode 14.x
+- armv7k, arm64, arm64e アーキテクチャ  
+(※2023年4月時点)  
 - iOS/Xcodeのバージョンに依って対応が必要となる可能性があります。詳細はニフクラ mobile backendの[ドキュメント](https://mbaas.nifcloud.com/doc/current/)をご覧ください。
 
 ## テクニカルサポート窓口対応バージョン
@@ -35,7 +36,7 @@
 ※なお、mobile backend にて大規模な改修が行われた際は、1年半以内のSDKであっても対応出来ない場合がございます。<br>
 その際は[informationブログ](https://mbaas.nifcloud.com/info/)にてお知らせいたします。予めご了承ください。
 
-- v3.0.0 ～ (※2020年3月時点)
+- v3.1.1 ～ (※2023年4月時点)
 
 ## ライセンス
 
@@ -45,4 +46,6 @@
 
 - [ニフクラ mobile backend](https://mbaas.nifcloud.com/)
 - [ドキュメント](https://mbaas.nifcloud.com/doc/current/)
+  - SDKの詳細な使い方
+- [サンプル＆チュートリアル](https://mbaas.nifcloud.com/doc/current/tutorial/tutorial_ios.html)
 - [ユーザーコミュニティ](https://github.com/NIFCLOUD-mbaas/UserCommunity)

@@ -17,9 +17,9 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
-* Mac OS 12.5.1 (Monterey)
+* Mac OS 13.5.2 (Ventura)
 * Xcode Version 14.0
-* iPhone X (iOS 16)
+* iPhone SE (iOS 17)
  * このサンプルアプリは、実機ビルドが必要です
 
 ※上記内容で動作確認をしています
