@@ -17,9 +17,9 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
-* Mac OS 12.5.1 (Monterey)
+* Mac OS 13.5.2 (Ventura)
 * Xcode Version 14.0
-* iPhone X (iOS 16)
+* iPhone SE (iOS 17)
  * このサンプルアプリは、実機ビルドが必要です
 
 ※上記内容で動作確認をしています
@@ -63,7 +63,7 @@ __[【iOS】プッシュ通知の受信に必要な証明書の作り方(開発�
 
 ### 3. Xcodeでアプリを起動
 
-* ダウンロードしたフォルダを開き、「__ObjcPushApp_iOS10.xcworkspace__」をダブルクリックしてXcode開きます(白い方です)
+* ダウンロードしたフォルダを開き、「__ObjcPushApp_iOS10.xcworkspace__」をダブルクリックしてXcodeを開きます(白い方です)
 
 ![画像09](/readme-img/009.png)
 ![画像06](/readme-img/006.png)

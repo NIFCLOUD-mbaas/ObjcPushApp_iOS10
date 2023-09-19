@@ -33,7 +33,9 @@
             }
             if (granted) {
                 // デバイストークンの要求
-                [[UIApplication sharedApplication] registerForRemoteNotifications];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                        [[UIApplication sharedApplication] registerForRemoteNotifications];
+                    });
             }
         }];
     } else {
